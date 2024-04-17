@@ -1,18 +1,20 @@
 
 // 部署完成后在网址后面输入/，加上下方设置的mytoken=的值，即可获取聚合后的节点
 
-let mytoken = 'auto'; //可根据需要自行设定，或者使用UUID在线生成网站进行生成：https://1024tools.com/uuid
+let mytoken = '46911111aA!'; //可根据需要自行设定，或者使用UUID在线生成网站进行生成：https://1024tools.com/uuid
 let BotToken =''; //可以为空，或电报@BotFather关注机器人，输入/start，选择：/newbot进行获取
 let ChatID =''; //可以为空，或电报@userinfobot中获取，选择：/start进行获取
 let TG = 0; //新手勿动， 开发者选项，1 为推送所有的访问信息，0 为不推送订阅转换后端的访问信息与异常访问
 let FileName = 'Pages-SUB-Convert';
-let SUBUpdateTime = 6; //更改此次设置订阅更新时间，单位小时
+let SUBUpdateTime = 2; //更改此次设置订阅更新时间，单位小时
 
 //在以下输入您的自建节点链接或订阅链接，请保留双引号
 let MainData = `
 vless://b7a392e2-4ef0-4496-90bc-1c37bb234904@cf.090227.xyz:443?encryption=none&security=tls&sni=edgetunnel-2z2.pages.dev&fp=random&type=ws&host=edgetunnel-2z2.pages.dev&path=%2F%3Fed%3D2048#%E5%8A%A0%E5%85%A5%E6%88%91%E7%9A%84%E9%A2%91%E9%81%93https%3A%2F%2Ft.me%2FOneZyhCN%E8%8E%B7%E5%8F%96%E6%9B%B4%E5%A4%9A%E8%B5%84%E6%BA%90
 https://sub.xf.free.hr/auto
 https://hy2sub.pages.dev
+vless://b0b36b34-1460-4988-a4f4-2e9d134463ce@cf.090227.xyz:443?security=tls&sni=c543a30d-e872-49ad-8be6-2836890f3d20.b9caf607-1ef7-4fd2-be07-224869a92bdf.accesscam.org&fp=random&type=ws&path=/vless.qq261891128.workers.dev/?ed%3D2048&host=c543a30d-e872-49ad-8be6-2836890f3d20.b9caf607-1ef7-4fd2-be07-224869a92bdf.accesscam.org&encryption=none#%E4%BC%98%E9%80%89%E5%AE%98%E6%96%B9%E7%BA%BF%E8%B7%AF%20%E5%B7%B2%E5%90%AF%E7%94%A8%E4%B8%B4%E6%97%B6%E5%9F%9F%E5%90%8D%E4%B8%AD%E8%BD%AC%E6%9C%8D%E5%8A%A1%EF%BC%8C%E8%AF%B7%E5%B0%BD%E5%BF%AB%E7%BB%91%E5%AE%9A%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%EF%BC%81
+tuic://f7498580-a1dc-4bf8-8f4f-307643e5c7d8:f7498580-a1dc-4bf8-8f4f-307643e5c7d8@104.168.58.63:23754?congestion_control=bbr&alpn=h3&sni=www.bing.com&udp_relay_mode=native&allow_insecure=1#tu5-racknerd-f31880
 `
 
 //请将机场订阅链接填入上方
